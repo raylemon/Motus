@@ -1,0 +1,22 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "raylemon",email = "raylemon0424@gmail.com"},
+]
+
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm.dev-dependencies]
+tools = [
+    "black>=23.9.1",
+    "ruff>=0.0.292",
+]
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "W", "D", "I", "S", "B", "C"]
