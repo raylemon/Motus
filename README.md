@@ -1,1 +1,1 @@
-# example-package
+# Projet MOTUS
